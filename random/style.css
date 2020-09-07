@@ -1,0 +1,29 @@
+.btn{
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    font-size: 3em;
+    z-index: 100;
+}
+.container{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 1em auto;
+    overflow: hidden;
+}
+.output{
+    position: relative;
+    
+}
+
+.box {
+    background-color:red ;
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    height: 100px;
+    width: 100px;
+    z-index: 80;
+}
